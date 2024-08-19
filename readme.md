@@ -1,0 +1,1 @@
+This is a repository with some of the scripts that I am making using Python. The majority of them were created for learning and training.
