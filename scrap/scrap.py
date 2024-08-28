@@ -1,9 +1,8 @@
 #scraping the web 'lyngsat' to get the carrier's parameters of open TV broadcasts from Argentina
 
-import urllib.request
+import urllib.request, json
 from lxml.html import fromstring
 from parametrizador import parametrizador
-import json
 
 #initializing lists
 
