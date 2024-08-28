@@ -21,7 +21,7 @@ elements = document.find_class("bigtable")
 text = str(elements[0].text_content())
 cad = text.split("\n")
 for item in cad:
-    if (item == ''):
+    if (item == '' or item == "LyngSat Stream"):
         cad.remove(item)
     else:
         item_list.append(item)
